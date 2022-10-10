@@ -1,0 +1,510 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    color: #18191F;
+    margin: 0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+.intro {
+    width: 100%;
+    background: url("../Landify/img/bg-section-1.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.intri__title {
+    font-size: 72px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.intro_inner {
+    width: 100%;
+    max-width: 730px;
+    margin: 0 ;
+    padding: 300px 0 0 0;
+    flex: 2;
+}
+
+.intro_in {
+    width: 1110px;
+    flex: 1;
+    padding: 168px 0 0 0px;
+}
+
+.intro__button {
+    width: 196px;
+    height: 62px;
+    background: #8C30F5;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 30px;
+    
+}
+
+.intro__button__link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.intro__button:hover {
+    background: #7703fb;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+
+}
+
+.intro__button:active {
+    background: #7703fb;
+    box-shadow: inset 3px 3px 7px rgba(0, 0, 0, 0.5);
+
+}
+
+.inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding-top: 20px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav {
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+   
+}
+
+.nav__link {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+
+}
+.firm {
+    width: 100%;
+    margin-top: 20px;
+        
+}
+
+.firm__logo__in {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form__logo__lonk {
+    width: 90px;
+    height: 30px;
+    margin: 40px 40px;
+}
+
+.firm__line {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to left, rgb(255, 255, 255), rgb(119, 118, 118), rgb(255, 255, 255));
+}
+
+.tailor {
+   margin-top: 70px; 
+}
+
+.tailor__text {
+    text-align: center;
+}
+
+.tailor__text__h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.tailor__text__p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.tailor__bloc {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+}
+
+.tailor__bloc__in {
+    width: 33%;
+}
+
+.tailor__bloc__h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.tailor__bloc__p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tailor__bloc__in {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.stories {
+    position: relative;
+    width: 100%;
+    height: 950px;
+    background: #D5FAFC;
+    margin-top: 50px;
+   
+}
+
+.storis__logo {
+    margin-top: 64px;
+    opacity: 0.3;
+    
+}
+
+.storis__title {
+    position: absolute;
+    width: 455px;
+    margin-top: -70px;
+    margin-left: 95px;
+}
+
+.storis__title__h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.storis__title__p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.storis__title__blok1 {
+    width: 350px;
+    height: 360px;
+    background: #fff;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+    margin-left: 100px;
+    
+}
+.storis__logo__hub {
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.storis__logo__sm {
+    margin-left: -105px;
+    opacity: 0.3;
+    
+}
+
+.storis__title__p1 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: -10px 40px 50px 50px;
+}
+
+.storis__title__p2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: -20px 40px 0px 50px;
+}
+
+.storis__title__p3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #969BAB;
+    margin: 0px 40px 50px 50px;
+}
+
+.storis__title__blok2 {
+    width: 350px;
+    height: 315px;
+    background: #fff;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+    margin-left: 500px;
+    margin-top: -500px;
+}
+
+.storis__title__blok3 {
+    width: 350px;
+    height: 325px;
+    background: #fff;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.storis__logo__sm1 {
+    margin-left: -150px;
+    opacity: 0.3;
+    
+}
+
+.our {
+    margin-top: 50px;
+}
+
+.our__in {
+    height: 332px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our__in__text {
+    width: 540px;
+}
+
+.our__in__text__h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.our__in__text__p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.our__in__text__no1{
+display: flex;
+}
+
+.our__in__text__no11 {
+margin: 15px;
+}
+
+.our__in__text__no12 {
+    width: 140px;
+
+}
+
+.our__in__text__no__h1 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.our__in__text__no__p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.Headline {
+    margin-top: 50px;
+}
+
+.Headline__in{
+    display: flex;
+    height: 668px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Headline__in__foto {
+    background: #F1E4FF;
+    border-radius: 8px;
+    width: 540px;
+    height: 540px;
+}
+
+.Headline__in__foto__i {
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.Headline__in__text {
+    width: 400px;
+}
+
+.Headline__in__text__h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.Headline__in__text__p1 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.Headline__in__text__p2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #8C30F5;
+    text-decoration: none;
+}
+
+.Headline__in__text__p2:hover {
+    text-decoration: underline;
+    color: #8C30F5;
+}
+
+.Enter {
+    margin-top: 50px;
+    height: 650px;
+}
+
+.Enter__in {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Enter__in__h1 {
+    font-size: 40px;
+    font-weight: 800;
+    width: 540px;
+}
+
+.Enter__in__p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 540px;
+}
+
+.Enter__in__foto {
+    margin-top: 30px;
+}
+
+.Manage {
+    background: #2EC5CE;
+    height: 491px;
+}
+
+.Manage__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Manage__text {
+    padding-top: 68px;
+}
+
+.Manage__text__h1 {
+    font-size: 48px;
+    font-weight: 800;
+    width: 540px;
+}
+
+.Manage__text__p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 540px;
+}
+
+.Manage__text__p1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 48px;
+    
+}
+
+.Manage__text__logo {
+    display: flex;
+    
+}
+
+.Manage__i1 {
+    margin-left: 30px;
+}
+
+.Manage__i2 {
+margin-top: 73px;
+}
+
+.end {
+    background: #0B0D17;
+    height: 280px;
+}
+
+.end__in {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.end__textlink {
+    margin-top: 56px;
+}
+
+.end__in__link {
+    display: flex;
+    margin-top: 24px;
+}
+
+.end__in__dow {
+    margin-top: 12px;
+}
+
+.end__link {
+    color: #fff;
+    margin-right: 24px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.end__link:hover {
+    text-decoration: underline;
+}
+
+.end__in__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #D9DBE1;
+    margin-top: 24px;
+}
+
+.end__logo__p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #D9DBE1;
+    margin-top: 56px;
+}
+
